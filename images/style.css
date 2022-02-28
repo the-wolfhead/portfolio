@@ -797,6 +797,9 @@
   #home::after {
     top: -33px;
   }
+  #home {
+    font-size: calc(20px + 2vw);
+  }
 }
 
 
