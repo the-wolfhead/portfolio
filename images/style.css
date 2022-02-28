@@ -778,7 +778,7 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(30px + 2vw);
+  font-size: calc(25px + 2vw);
   font-family: sans-serif;
   color: white;
   -webkit-font-smoothing: antialiased;
@@ -800,6 +800,10 @@ html, body {
     top: -33px;
   }
 }
+@media (max-width: 575px) {
+    #home {
+        font-size: calc(25px + 2vw);
+    }
+  }
 
 
-}
