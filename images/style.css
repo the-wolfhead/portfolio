@@ -796,13 +796,10 @@ html, body {
           animation: typed 14.46s linear 1s infinite, beam-blink 1s infinite;
 }
 @media (max-width: 575px) {
-  body::after {
+  #home::after {
     top: -33px;
   }
 }
 
-@media (max-width: 575px) {
-  body::before {
-    content: "2 strings \a 47 chars \a 14.46s duration";
-  }
+
 }
