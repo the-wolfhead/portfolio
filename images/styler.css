@@ -65,8 +65,8 @@ body{
     height: 100%;
     z-index: -10;
     background: url(6fc39efb-c45b-45bb-b009-a23215f70566.jpg) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    -webkit-background-size: initial;
+    -moz-background-size: initial;
+    -o-background-size: initial;
+    background-size: initial;
   }
