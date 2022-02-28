@@ -55,7 +55,7 @@ body{
         opacity: 0;
     }
 }
-main:before {
+#main:before {
     content: "";
     display: block;
     position: fixed;
