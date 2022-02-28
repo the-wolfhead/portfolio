@@ -1,0 +1,808 @@
+@charset "UTF-8";
+@-webkit-keyframes typed {
+  /* string 1, char 1 */
+  0%, 0.6905629322% {
+    content: "I";
+  }
+  /* string 1, char 2 */
+  0.6915629322%, 1.3821258645% {
+    content: "I'";
+  }
+  /* string 1, char 3 */
+  1.3831258645%, 2.0736887967% {
+    content: "I'm";
+  }
+  /* string 1, char 4 */
+  2.0746887967%, 2.7652517289% {
+    content: "I'm ";
+  }
+  /* string 1, char 5 */
+  2.7662517289%, 3.4568146611% {
+    content: "I'm D";
+  }
+  /* string 1, char 6 */
+  3.4578146611%, 4.1483775934% {
+    content: "I'm Da";
+  }
+  /* string 1, char 7 */
+  4.1493775934%, 4.8399405256% {
+    content: "I'm Dan";
+  }
+  /* string 1, char 8 */
+  4.8409405256%, 5.5315034578% {
+    content: "I'm Dani";
+  }
+  /* string 1, char 9 */
+  5.5325034578%, 6.22306639% {
+    content: "I'm Danie";
+  }
+  /* string 1, char 10 */
+  6.22406639%, 6.9146293223% {
+    content: "I'm Daniel";
+  }
+  /* string 1, char 11 */
+  6.9156293223%, 7.6061922545% {
+    content: "I'm Daniel ";
+  }
+  /* string 1, char 12 */
+  7.6071922545%, 8.2977551867% {
+    content: "I'm Daniel O";
+  }
+  /* string 1, char 13 */
+  8.2987551867%, 8.9893181189% {
+    content: "I'm Daniel Ot";
+  }
+  /* string 1, char 14 */
+  8.9903181189%, 9.6808810512% {
+    content: "I'm Daniel Ota";
+  }
+  /* string 1, char 15 */
+  9.6818810512%, 10.3724439834% {
+    content: "I'm Daniel Otab";
+  }
+  /* string 1, char 16 */
+  10.3734439834%, 11.0640069156% {
+    content: "I'm Daniel Otabo";
+  }
+  /* string 1, char 17 */
+  11.0650069156%, 26.1400788382% {
+    content: "I'm Daniel Otabor";
+  }
+  /* string 1, char 18 */
+  26.1410788382%, 26.693329184% {
+    content: "I'm Daniel Otabo";
+  }
+  /* string 1, char 19 */
+  26.694329184%, 27.2465795297% {
+    content: "I'm Daniel Otab";
+  }
+  /* string 1, char 20 */
+  27.2475795297%, 27.7998298755% {
+    content: "I'm Daniel Ota";
+  }
+  /* string 1, char 21 */
+  27.8008298755%, 28.3530802213% {
+    content: "I'm Daniel Ot";
+  }
+  /* string 1, char 22 */
+  28.3540802213%, 28.9063305671% {
+    content: "I'm Daniel O";
+  }
+  /* string 1, char 23 */
+  28.9073305671%, 29.4595809129% {
+    content: "I'm Daniel ";
+  }
+  /* string 1, char 24 */
+  29.4605809129%, 30.0128312586% {
+    content: "I'm Daniel";
+  }
+  /* string 1, char 25 */
+  30.0138312586%, 30.5660816044% {
+    content: "I'm Danie";
+  }
+  /* string 1, char 26 */
+  30.5670816044%, 31.1193319502% {
+    content: "I'm Dani";
+  }
+  /* string 1, char 27 */
+  31.1203319502%, 31.672582296% {
+    content: "I'm Dan";
+  }
+  /* string 1, char 28 */
+  31.673582296%, 32.2258326418% {
+    content: "I'm Da";
+  }
+  /* string 1, char 29 */
+  32.2268326418%, 32.7790829876% {
+    content: "I'm D";
+  }
+  /* string 1, char 30 */
+  32.7800829876%, 33.3323333333% {
+    content: "I'm ";
+  }
+  /* string 1, char 31 */
+  33.3333333333%, 33.8855836791% {
+    content: "I'm";
+  }
+  /* string 1, char 32 */
+  33.8865836791%, 34.4388340249% {
+    content: "I'";
+  }
+  /* string 1, char 33 */
+  34.4398340249%, 34.9920843707% {
+    content: "I";
+  }
+  /* string 1, char 34 */
+  34.9930843707%, 41.9077136929% {
+    content: "​";
+  }
+  /* string 2, char 1 */
+  41.9087136929%, 42.5992766252% {
+    content: "I";
+  }
+  /* string 2, char 2 */
+  42.6002766252%, 43.2908395574% {
+    content: "I'";
+  }
+  /* string 2, char 3 */
+  43.2918395574%, 43.9824024896% {
+    content: "I'm";
+  }
+  /* string 2, char 4 */
+  43.9834024896%, 44.6739654219% {
+    content: "I'm ";
+  }
+  /* string 2, char 5 */
+  44.6749654219%, 45.3655283541% {
+    content: "I'm a";
+  }
+  /* string 2, char 6 */
+  45.3665283541%, 46.0570912863% {
+    content: "I'm a ";
+  }
+  /* string 2, char 7 */
+  46.0580912863%, 46.7486542185% {
+    content: "I'm a F";
+  }
+  /* string 2, char 8 */
+  46.7496542185%, 47.4402171508% {
+    content: "I'm a Fu";
+  }
+  /* string 2, char 9 */
+  47.4412171508%, 48.131780083% {
+    content: "I'm a Ful";
+  }
+  /* string 2, char 10 */
+  48.132780083%, 48.8233430152% {
+    content: "I'm a Full";
+  }
+  /* string 2, char 11 */
+  48.8243430152%, 49.5149059474% {
+    content: "I'm a Full ";
+  }
+  /* string 2, char 12 */
+  49.5159059474%, 50.2064688797% {
+    content: "I'm a Full S";
+  }
+  /* string 2, char 13 */
+  50.2074688797%, 50.8980318119% {
+    content: "I'm a Full St";
+  }
+  /* string 2, char 14 */
+  50.8990318119%, 51.5895947441% {
+    content: "I'm a Full Sta";
+  }
+  /* string 2, char 15 */
+  51.5905947441%, 52.2811576763% {
+    content: "I'm a Full Stac";
+  }
+  /* string 2, char 16 */
+  52.2821576763%, 52.9727206086% {
+    content: "I'm a Full Stack";
+  }
+  /* string 2, char 17 */
+  52.9737206086%, 53.6642835408% {
+    content: "I'm a Full Stack ";
+  }
+  /* string 2, char 18 */
+  53.6652835408%, 54.355846473% {
+    content: "I'm a Full Stack W";
+  }
+  /* string 2, char 19 */
+  54.356846473%, 55.0474094053% {
+    content: "I'm a Full Stack We";
+  }
+  /* string 2, char 20 */
+  55.0484094053%, 55.7389723375% {
+    content: "I'm a Full Stack Web";
+  }
+  /* string 2, char 21 */
+  55.7399723375%, 56.4305352697% {
+    content: "I'm a Full Stack Web ";
+  }
+  /* string 2, char 22 */
+  56.4315352697%, 57.1220982019% {
+    content: "I'm a Full Stack Web D";
+  }
+  /* string 2, char 23 */
+  57.1230982019%, 57.8136611342% {
+    content: "I'm a Full Stack Web De";
+  }
+  /* string 2, char 24 */
+  57.8146611342%, 58.5052240664% {
+    content: "I'm a Full Stack Web Dev";
+  }
+  /* string 2, char 25 */
+  58.5062240664%, 59.1967869986% {
+    content: "I'm a Full Stack Web Deve";
+  }
+  /* string 2, char 26 */
+  59.1977869986%, 59.8883499308% {
+    content: "I'm a Full Stack Web Devel";
+  }
+  /* string 2, char 27 */
+  59.8893499308%, 60.5799128631% {
+    content: "I'm a Full Stack Web Develo";
+  }
+  /* string 2, char 28 */
+  60.5809128631%, 61.2714757953% {
+    content: "I'm a Full Stack Web Develop";
+  }
+  /* string 2, char 29 */
+  61.2724757953%, 61.9630387275% {
+    content: "I'm a Full Stack Web Develope";
+  }
+  /* string 2, char 30 */
+  61.9640387275%, 77.0391106501% {
+    content: "I'm a Full Stack Web Developer";
+  }
+  /* string 2, char 31 */
+  77.0401106501%, 77.5923609959% {
+    content: "I'm a Full Stack Web Develope";
+  }
+  /* string 2, char 32 */
+  77.5933609959%, 78.1456113416% {
+    content: "I'm a Full Stack Web Develop";
+  }
+  /* string 2, char 33 */
+  78.1466113416%, 78.6988616874% {
+    content: "I'm a Full Stack Web Develo";
+  }
+  /* string 2, char 34 */
+  78.6998616874%, 79.2521120332% {
+    content: "I'm a Full Stack Web Devel";
+  }
+  /* string 2, char 35 */
+  79.2531120332%, 79.805362379% {
+    content: "I'm a Full Stack Web Deve";
+  }
+  /* string 2, char 36 */
+  79.806362379%, 80.3586127248% {
+    content: "I'm a Full Stack Web Dev";
+  }
+  /* string 2, char 37 */
+  80.3596127248%, 80.9118630705% {
+    content: "I'm a Full Stack Web De";
+  }
+  /* string 2, char 38 */
+  80.9128630705%, 81.4651134163% {
+    content: "I'm a Full Stack Web D";
+  }
+  /* string 2, char 39 */
+  81.4661134163%, 82.0183637621% {
+    content: "I'm a Full Stack Web ";
+  }
+  /* string 2, char 40 */
+  82.0193637621%, 82.5716141079% {
+    content: "I'm a Full Stack Web";
+  }
+  /* string 2, char 41 */
+  82.5726141079%, 83.1248644537% {
+    content: "I'm a Full Stack We";
+  }
+  /* string 2, char 42 */
+  83.1258644537%, 83.6781147994% {
+    content: "I'm a Full Stack W";
+  }
+  /* string 2, char 43 */
+  83.6791147994%, 84.2313651452% {
+    content: "I'm a Full Stack ";
+  }
+  /* string 2, char 44 */
+  84.2323651452%, 84.784615491% {
+    content: "I'm a Full Stack";
+  }
+  /* string 2, char 45 */
+  84.785615491%, 85.3378658368% {
+    content: "I'm a Full Stac";
+  }
+  /* string 2, char 46 */
+  85.3388658368%, 85.8911161826% {
+    content: "I'm a Full Sta";
+  }
+  /* string 2, char 47 */
+  85.8921161826%, 86.4443665284% {
+    content: "I'm a Full St";
+  }
+  /* string 2, char 48 */
+  86.4453665284%, 86.9976168741% {
+    content: "I'm a Full S";
+  }
+  /* string 2, char 49 */
+  86.9986168741%, 87.5508672199% {
+    content: "I'm a Full ";
+  }
+  /* string 2, char 50 */
+  87.5518672199%, 88.1041175657% {
+    content: "I'm a Full";
+  }
+  /* string 2, char 51 */
+  88.1051175657%, 88.6573679115% {
+    content: "I'm a Ful";
+  }
+  /* string 2, char 52 */
+  88.6583679115%, 89.2106182573% {
+    content: "I'm a Fu";
+  }
+  /* string 2, char 53 */
+  89.2116182573%, 89.763868603% {
+    content: "I'm a F";
+  }
+  /* string 2, char 54 */
+  89.764868603%, 90.3171189488% {
+    content: "I'm a ";
+  }
+  /* string 2, char 55 */
+  90.3181189488%, 90.8703692946% {
+    content: "I'm a";
+  }
+  /* string 2, char 56 */
+  90.8713692946%, 91.4236196404% {
+    content: "I'm ";
+  }
+  /* string 2, char 57 */
+  91.4246196404%, 91.9768699862% {
+    content: "I'm";
+  }
+  /* string 2, char 58 */
+  91.9778699862%, 92.530120332% {
+    content: "I'";
+  }
+  /* string 2, char 59 */
+  92.531120332%, 93.0833706777% {
+    content: "I";
+  }
+  /* string 2, char 60 */
+  93.0843706777%, 100% {
+    content: "​";
+  }
+}
+@keyframes typed {
+  /* string 1, char 1 */
+  0%, 0.6905629322% {
+    content: "I";
+  }
+  /* string 1, char 2 */
+  0.6915629322%, 1.3821258645% {
+    content: "I'";
+  }
+  /* string 1, char 3 */
+  1.3831258645%, 2.0736887967% {
+    content: "I'm";
+  }
+  /* string 1, char 4 */
+  2.0746887967%, 2.7652517289% {
+    content: "I'm ";
+  }
+  /* string 1, char 5 */
+  2.7662517289%, 3.4568146611% {
+    content: "I'm D";
+  }
+  /* string 1, char 6 */
+  3.4578146611%, 4.1483775934% {
+    content: "I'm Da";
+  }
+  /* string 1, char 7 */
+  4.1493775934%, 4.8399405256% {
+    content: "I'm Dan";
+  }
+  /* string 1, char 8 */
+  4.8409405256%, 5.5315034578% {
+    content: "I'm Dani";
+  }
+  /* string 1, char 9 */
+  5.5325034578%, 6.22306639% {
+    content: "I'm Danie";
+  }
+  /* string 1, char 10 */
+  6.22406639%, 6.9146293223% {
+    content: "I'm Daniel";
+  }
+  /* string 1, char 11 */
+  6.9156293223%, 7.6061922545% {
+    content: "I'm Daniel ";
+  }
+  /* string 1, char 12 */
+  7.6071922545%, 8.2977551867% {
+    content: "I'm Daniel O";
+  }
+  /* string 1, char 13 */
+  8.2987551867%, 8.9893181189% {
+    content: "I'm Daniel Ot";
+  }
+  /* string 1, char 14 */
+  8.9903181189%, 9.6808810512% {
+    content: "I'm Daniel Ota";
+  }
+  /* string 1, char 15 */
+  9.6818810512%, 10.3724439834% {
+    content: "I'm Daniel Otab";
+  }
+  /* string 1, char 16 */
+  10.3734439834%, 11.0640069156% {
+    content: "I'm Daniel Otabo";
+  }
+  /* string 1, char 17 */
+  11.0650069156%, 26.1400788382% {
+    content: "I'm Daniel Otabor";
+  }
+  /* string 1, char 18 */
+  26.1410788382%, 26.693329184% {
+    content: "I'm Daniel Otabo";
+  }
+  /* string 1, char 19 */
+  26.694329184%, 27.2465795297% {
+    content: "I'm Daniel Otab";
+  }
+  /* string 1, char 20 */
+  27.2475795297%, 27.7998298755% {
+    content: "I'm Daniel Ota";
+  }
+  /* string 1, char 21 */
+  27.8008298755%, 28.3530802213% {
+    content: "I'm Daniel Ot";
+  }
+  /* string 1, char 22 */
+  28.3540802213%, 28.9063305671% {
+    content: "I'm Daniel O";
+  }
+  /* string 1, char 23 */
+  28.9073305671%, 29.4595809129% {
+    content: "I'm Daniel ";
+  }
+  /* string 1, char 24 */
+  29.4605809129%, 30.0128312586% {
+    content: "I'm Daniel";
+  }
+  /* string 1, char 25 */
+  30.0138312586%, 30.5660816044% {
+    content: "I'm Danie";
+  }
+  /* string 1, char 26 */
+  30.5670816044%, 31.1193319502% {
+    content: "I'm Dani";
+  }
+  /* string 1, char 27 */
+  31.1203319502%, 31.672582296% {
+    content: "I'm Dan";
+  }
+  /* string 1, char 28 */
+  31.673582296%, 32.2258326418% {
+    content: "I'm Da";
+  }
+  /* string 1, char 29 */
+  32.2268326418%, 32.7790829876% {
+    content: "I'm D";
+  }
+  /* string 1, char 30 */
+  32.7800829876%, 33.3323333333% {
+    content: "I'm ";
+  }
+  /* string 1, char 31 */
+  33.3333333333%, 33.8855836791% {
+    content: "I'm";
+  }
+  /* string 1, char 32 */
+  33.8865836791%, 34.4388340249% {
+    content: "I'";
+  }
+  /* string 1, char 33 */
+  34.4398340249%, 34.9920843707% {
+    content: "I";
+  }
+  /* string 1, char 34 */
+  34.9930843707%, 41.9077136929% {
+    content: "​";
+  }
+  /* string 2, char 1 */
+  41.9087136929%, 42.5992766252% {
+    content: "I";
+  }
+  /* string 2, char 2 */
+  42.6002766252%, 43.2908395574% {
+    content: "I'";
+  }
+  /* string 2, char 3 */
+  43.2918395574%, 43.9824024896% {
+    content: "I'm";
+  }
+  /* string 2, char 4 */
+  43.9834024896%, 44.6739654219% {
+    content: "I'm ";
+  }
+  /* string 2, char 5 */
+  44.6749654219%, 45.3655283541% {
+    content: "I'm a";
+  }
+  /* string 2, char 6 */
+  45.3665283541%, 46.0570912863% {
+    content: "I'm a ";
+  }
+  /* string 2, char 7 */
+  46.0580912863%, 46.7486542185% {
+    content: "I'm a F";
+  }
+  /* string 2, char 8 */
+  46.7496542185%, 47.4402171508% {
+    content: "I'm a Fu";
+  }
+  /* string 2, char 9 */
+  47.4412171508%, 48.131780083% {
+    content: "I'm a Ful";
+  }
+  /* string 2, char 10 */
+  48.132780083%, 48.8233430152% {
+    content: "I'm a Full";
+  }
+  /* string 2, char 11 */
+  48.8243430152%, 49.5149059474% {
+    content: "I'm a Full ";
+  }
+  /* string 2, char 12 */
+  49.5159059474%, 50.2064688797% {
+    content: "I'm a Full S";
+  }
+  /* string 2, char 13 */
+  50.2074688797%, 50.8980318119% {
+    content: "I'm a Full St";
+  }
+  /* string 2, char 14 */
+  50.8990318119%, 51.5895947441% {
+    content: "I'm a Full Sta";
+  }
+  /* string 2, char 15 */
+  51.5905947441%, 52.2811576763% {
+    content: "I'm a Full Stac";
+  }
+  /* string 2, char 16 */
+  52.2821576763%, 52.9727206086% {
+    content: "I'm a Full Stack";
+  }
+  /* string 2, char 17 */
+  52.9737206086%, 53.6642835408% {
+    content: "I'm a Full Stack ";
+  }
+  /* string 2, char 18 */
+  53.6652835408%, 54.355846473% {
+    content: "I'm a Full Stack W";
+  }
+  /* string 2, char 19 */
+  54.356846473%, 55.0474094053% {
+    content: "I'm a Full Stack We";
+  }
+  /* string 2, char 20 */
+  55.0484094053%, 55.7389723375% {
+    content: "I'm a Full Stack Web";
+  }
+  /* string 2, char 21 */
+  55.7399723375%, 56.4305352697% {
+    content: "I'm a Full Stack Web ";
+  }
+  /* string 2, char 22 */
+  56.4315352697%, 57.1220982019% {
+    content: "I'm a Full Stack Web D";
+  }
+  /* string 2, char 23 */
+  57.1230982019%, 57.8136611342% {
+    content: "I'm a Full Stack Web De";
+  }
+  /* string 2, char 24 */
+  57.8146611342%, 58.5052240664% {
+    content: "I'm a Full Stack Web Dev";
+  }
+  /* string 2, char 25 */
+  58.5062240664%, 59.1967869986% {
+    content: "I'm a Full Stack Web Deve";
+  }
+  /* string 2, char 26 */
+  59.1977869986%, 59.8883499308% {
+    content: "I'm a Full Stack Web Devel";
+  }
+  /* string 2, char 27 */
+  59.8893499308%, 60.5799128631% {
+    content: "I'm a Full Stack Web Develo";
+  }
+  /* string 2, char 28 */
+  60.5809128631%, 61.2714757953% {
+    content: "I'm a Full Stack Web Develop";
+  }
+  /* string 2, char 29 */
+  61.2724757953%, 61.9630387275% {
+    content: "I'm a Full Stack Web Develope";
+  }
+  /* string 2, char 30 */
+  61.9640387275%, 77.0391106501% {
+    content: "I'm a Full Stack Web Developer";
+  }
+  /* string 2, char 31 */
+  77.0401106501%, 77.5923609959% {
+    content: "I'm a Full Stack Web Develope";
+  }
+  /* string 2, char 32 */
+  77.5933609959%, 78.1456113416% {
+    content: "I'm a Full Stack Web Develop";
+  }
+  /* string 2, char 33 */
+  78.1466113416%, 78.6988616874% {
+    content: "I'm a Full Stack Web Develo";
+  }
+  /* string 2, char 34 */
+  78.6998616874%, 79.2521120332% {
+    content: "I'm a Full Stack Web Devel";
+  }
+  /* string 2, char 35 */
+  79.2531120332%, 79.805362379% {
+    content: "I'm a Full Stack Web Deve";
+  }
+  /* string 2, char 36 */
+  79.806362379%, 80.3586127248% {
+    content: "I'm a Full Stack Web Dev";
+  }
+  /* string 2, char 37 */
+  80.3596127248%, 80.9118630705% {
+    content: "I'm a Full Stack Web De";
+  }
+  /* string 2, char 38 */
+  80.9128630705%, 81.4651134163% {
+    content: "I'm a Full Stack Web D";
+  }
+  /* string 2, char 39 */
+  81.4661134163%, 82.0183637621% {
+    content: "I'm a Full Stack Web ";
+  }
+  /* string 2, char 40 */
+  82.0193637621%, 82.5716141079% {
+    content: "I'm a Full Stack Web";
+  }
+  /* string 2, char 41 */
+  82.5726141079%, 83.1248644537% {
+    content: "I'm a Full Stack We";
+  }
+  /* string 2, char 42 */
+  83.1258644537%, 83.6781147994% {
+    content: "I'm a Full Stack W";
+  }
+  /* string 2, char 43 */
+  83.6791147994%, 84.2313651452% {
+    content: "I'm a Full Stack ";
+  }
+  /* string 2, char 44 */
+  84.2323651452%, 84.784615491% {
+    content: "I'm a Full Stack";
+  }
+  /* string 2, char 45 */
+  84.785615491%, 85.3378658368% {
+    content: "I'm a Full Stac";
+  }
+  /* string 2, char 46 */
+  85.3388658368%, 85.8911161826% {
+    content: "I'm a Full Sta";
+  }
+  /* string 2, char 47 */
+  85.8921161826%, 86.4443665284% {
+    content: "I'm a Full St";
+  }
+  /* string 2, char 48 */
+  86.4453665284%, 86.9976168741% {
+    content: "I'm a Full S";
+  }
+  /* string 2, char 49 */
+  86.9986168741%, 87.5508672199% {
+    content: "I'm a Full ";
+  }
+  /* string 2, char 50 */
+  87.5518672199%, 88.1041175657% {
+    content: "I'm a Full";
+  }
+  /* string 2, char 51 */
+  88.1051175657%, 88.6573679115% {
+    content: "I'm a Ful";
+  }
+  /* string 2, char 52 */
+  88.6583679115%, 89.2106182573% {
+    content: "I'm a Fu";
+  }
+  /* string 2, char 53 */
+  89.2116182573%, 89.763868603% {
+    content: "I'm a F";
+  }
+  /* string 2, char 54 */
+  89.764868603%, 90.3171189488% {
+    content: "I'm a ";
+  }
+  /* string 2, char 55 */
+  90.3181189488%, 90.8703692946% {
+    content: "I'm a";
+  }
+  /* string 2, char 56 */
+  90.8713692946%, 91.4236196404% {
+    content: "I'm ";
+  }
+  /* string 2, char 57 */
+  91.4246196404%, 91.9768699862% {
+    content: "I'm";
+  }
+  /* string 2, char 58 */
+  91.9778699862%, 92.530120332% {
+    content: "I'";
+  }
+  /* string 2, char 59 */
+  92.531120332%, 93.0833706777% {
+    content: "I";
+  }
+  /* string 2, char 60 */
+  93.0843706777%, 100% {
+    content: "​";
+  }
+}
+@-webkit-keyframes beam-blink {
+  75% {
+    border-color: transparent;
+  }
+}
+@keyframes beam-blink {
+  75% {
+    border-color: transparent;
+  }
+}
+* {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+html, body {
+  
+}
+
+#home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(30px + 2vw);
+  font-family: sans-serif;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#home::after {
+  content: "​";
+  position: relative;
+  top: -13px;
+  display: inline-block;
+  padding-right: 3px;
+  padding-right: calc(3px + 0.1vw);
+  white-space: nowrap;
+  -webkit-animation: typed 14.46s linear 1s infinite, beam-blink 1s infinite;
+          animation: typed 14.46s linear 1s infinite, beam-blink 1s infinite;
+}
+@media (max-width: 575px) {
+  body::after {
+    top: -33px;
+  }
+}
+
+@media (max-width: 575px) {
+  body::before {
+    content: "2 strings \a 47 chars \a 14.46s duration";
+  }
+}
