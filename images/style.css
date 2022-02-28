@@ -801,5 +801,13 @@
     font-size: calc(20px + 2vw);
   }
 }
+@media (max-width: 450px) {
+    #home::after {
+      top: -33px;
+    }
+    #home {
+      font-size: calc(15px + 2vw);
+    }
+  }
 
 
