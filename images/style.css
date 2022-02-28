@@ -770,9 +770,7 @@
           backface-visibility: hidden;
 }
 
-html, body {
-  
-}
+
 
 #home {
   display: flex;
@@ -800,10 +798,5 @@ html, body {
     top: -33px;
   }
 }
-@media (max-width: 575px) {
-    #home {
-        font-size: calc(25px + 2vw);
-    }
-  }
 
 
